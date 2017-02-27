@@ -1,0 +1,17 @@
+body {
+    background-color: indianred;
+}
+
+.expectations {
+    font-size: 100px;
+    position:relative;
+    text-align:center;
+    border: 8px solid black;
+    
+}
+
+img {
+    position:fixed;
+    left: 84px;
+    top: 450px;
+}
