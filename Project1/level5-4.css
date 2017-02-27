@@ -1,0 +1,95 @@
+.city {
+    color: firebrick; 
+    position:absolute;
+    top: 10px;
+    left: 100px;
+    width: 340px;
+    font-size: 20px;
+    border: 8px dotted blueviolet; 
+    text-align: center;
+    padding: 50px;
+}
+
+.skyscrapper {
+    color: antiquewhite; 
+    position:absolute;
+    top: 230px;
+    left: 300px;
+    width: 340px;
+    font-size: 20px;
+    border: 8px dotted blueviolet; 
+    text-align: center;
+    padding: 50px;
+    height: 40px;
+    
+}
+
+.jam {
+    color: antiquewhite; 
+    position:absolute;
+    top: 400px;
+    left: 400px;
+    width: 340px;
+    font-size: 20px;
+    border: 8px dotted blueviolet; 
+    text-align: center;
+    padding: 50px;
+}
+
+.siren {
+    color: antiquewhite; 
+    position:absolute;
+    top: 600px;
+    left: 600px;
+    width: 340px;
+    font-size: 20px;
+    border: 8px dotted blueviolet; 
+    text-align: center;
+    padding: 50px;
+}
+
+.hotel {
+    color: antiquewhite; 
+    position:absolute;
+    top: 800px;
+    left: 800px;
+    width: 340px;
+    font-size: 20px;
+    border: 8px dotted blueviolet; 
+    text-align: center;
+    padding: 10px;
+    height:10px;
+}
+
+.water {
+    color: antiquewhite; 
+    position:absolute;
+    top: 845px;
+    left: 905px;
+    width: 340px;
+    font-size: 20px;
+    border: 8px dotted blueviolet; 
+    text-align: center;
+    padding: 50px;
+}
+
+.expectation {
+    color: red; 
+    position:absolute;
+    top: 1000px;
+    left: 1000px;
+    width: 340px;
+    font-size: 20px;
+    border: 8px dotted blueviolet; 
+    text-align: center;
+    padding: 50px;
+}
+
+body {
+    background-color: pink;
+    background-image:url(http://www.textureking.com/content/img/stock/big/DSC_4465.JPG);
+}
+
+.whisper {
+    color:azure
+}
