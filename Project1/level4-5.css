@@ -1,0 +1,73 @@
+body {
+    background-color:black;
+}
+.getaway {
+    border: 6px;
+    border-style:groove;
+    color:white;
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    text-align:center;
+}
+
+.skyscrapers {
+    color:blue;
+    border-style:dashed;
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+    width: 900px;
+    left: 250px;
+    top: 130px;
+    text-align:center;
+}
+
+.jam {
+    font-size: 40px;
+    font-family: monospace;
+    border: 10px solid red;
+    line-height: 25px;
+    position:absolute;
+    width: 500px;
+    height: 150px;
+    top: 183px;
+    left: 500px;
+    text-align: center;
+    color:aquamarine
+}
+
+.beautiful {
+    color: antiquewhite;
+    border: 8px dotted blueviolet; 
+    position:absolute;
+    top: 400px;
+    left: 300px;
+    width: 800px;
+    text-align:center;
+}
+
+.police {
+    color:white;
+    text-align: right;
+    font-family: fantasy;
+    border: 3px solid white;
+    top: 338px;
+    position:absolute;
+    height: 20px;
+    width: 1160px
+}
+
+.expectations {
+    font-size: 12px;
+    color:deeppink;
+    left: 900px;
+    border: 10px solid blue;
+    width: 100px;
+    height: 60px;
+    right: none;
+    position: absolute;
+    top: 500px;
+    text-align:center;
+}

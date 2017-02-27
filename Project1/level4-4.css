@@ -1,0 +1,48 @@
+body {
+    background-color:blueviolet;
+}
+.box {
+    border: 6px;
+    border-style:groove;
+    color:white;
+    width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 100px;
+}
+
+.box1 {
+    color:blue;
+    border-style:dashed;
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+    width: 900px;
+    left: 700px;
+}
+
+.dreamer {
+    font-size: 80px;
+    font-family: monospace;
+    border: 10px solid black;
+    line-height: 60px;
+    position:absolute;
+    width: 600px;
+    height: 400px;
+    top: 200px;
+    left: 100px;
+    text-align: center;
+}
+
+.falling {
+    font-size: 14px;
+    color:deeppink;
+    left: 200px;
+    border: 10px solid blue;
+    width: 60px;
+    height: 100px;
+    right: none;
+    position: absolute;
+    top: 20px;
+    text-align:right;
+}
