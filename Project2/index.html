@@ -35,7 +35,7 @@
         
         h1 {
             float:left; 
-            font-family:Oswald, sans-serif;
+            font-family:'Oswald', sans-serif;
             font-size: 85px;
             text-align: center;
             position:fixed;
@@ -48,7 +48,7 @@
         
         h2 {
             float:left; 
-            font-family:Oswald, sans-serif;
+            font-family:'Oswald', sans-serif;
             font-size: 85px;
             text-align: center;
             position:fixed;
@@ -66,25 +66,44 @@
             }
         
         nav li {
-            color:red;
             font-family:sans-serif;
             font-size: 30px;
             position:relative;
             top: 80px;
             display: inline-block;
+        }
+        
+        nav a {
+            position: relative;
+            color: red;
             text-decoration: none;
+            padding: 45px;
+            -webkit-text-stroke: 1px #000000;
+            -webkit-text-fill-color: #FF002;
         }
         
         nav p {
-            color: red;
-            
+            position: relative;
+            color: black;
+            text-decoration: none;
+            padding: 70px;
+           
         }
         
         section {
             color:red; 
         }
         
-        .stuff {
+        .outside {
+            background:yellow;
+            top: 400px; 
+            width: 950px;
+            left: 150px;
+            position: relative;
+            border: 7px solid red; 
+        }
+        
+            
             
         }
         
@@ -101,43 +120,66 @@
     </header>
     
     <nav>
+        
         <ul> 
         
             <li>
                 <div class="BOB">
-                <p><a href="bob"> BOB </a></p></div>
+                    <a href="bob"> BOB </a></div>
             </li>
-                
+            
             <li>
                 <div class="LINDA">
-                <p><a href="linda"> LINDA </a></p></div>
+                <a href="linda"> LINDA </a></div>
             </li>
             
             <li>
                 <div class="TINA">
-                <p><a href="tina"> TINA </a></p></div>
+                <a href="tina"> TINA </a></div>
             </li>
         
             <li>
                 <div class="TINA">
-                <p><a href="tina"> TINA </a></p></div>
+                <a href="tina"> TINA </a></div>
             </li>
             
             <li>
                 <div class="GENE">
-                <p><a href="gene"> GENE </a></p></div>
+                <a href="gene"> GENE </a></div>
             </li>
             
             <li>
                 <div class="LOUISE">
-                <p><a href="louise.html"> LOUISE </a></p> </div>
+                <a href="louise.html"> LOUISE </a></div>
             </li>
         </ul>
         
+        <ul>
+            
+            <li>
+                <p>BOB</p>
+            </li>
+            
+            <li>
+                <p>LINDA</p>
+            </li>
+            
+            <li>
+                <p>TINA</p>
+            </li>
+            
+            <li>
+                <p>GENE</p>
+            </li>
+            
+            <li>
+                <p>LOUISE</p>
+            </li>
+        </ul>
     </nav>
     
     <section>
-        <div class="stuff"> </div>
+        <div class="outside">posts </div>
     </section>
     
     <footer>
