@@ -8,8 +8,8 @@
         
         body {
             background: url(https://pmcdeadline2.files.wordpress.com/2015/01/bobs-burgers.jpg);
-            background-size:cover;
-            
+            background-size: cover;
+            background-color: red;
         }
         
         header {
@@ -21,6 +21,7 @@
             border: 3px solid black; 
             transform: rotate(-7deg);
             top: 50px;
+            z-index: 100;
         }
         
         header div {
@@ -31,6 +32,7 @@
             border: 3px solid black;
             left: 11px;
             top: 15px;
+            z-index: 100;
         }
         
         h1 {
@@ -55,6 +57,7 @@
             left: 14px;
             top: -33px;
             color:black;
+            z-index: 100;
         }
         
         nav {
@@ -66,11 +69,12 @@
             }
         
         nav li {
-            font-family:sans-serif;
+            font-family:'Oswald', sans-serif;
             font-size: 30px;
             position:relative;
-            top: 80px;
+            top: 120px;
             display: inline-block;
+            z-index: 99;
         }
         
         nav a {
@@ -82,16 +86,54 @@
             -webkit-text-fill-color: #FF002;
         }
         
-        nav p {
+        .bobby {
             position: relative;
+            padding: 45px;
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
             color: black;
-            text-decoration: none;
-            padding: 70px;
-           
+            left: -347px;
+            top: 26.4px;
         }
         
-        section {
-            color:red; 
+        .lindaa {
+            position: relative;
+            padding: 45px;
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+            color: black;
+            left: -177px;
+            top: -99px;
+        }
+        
+        .tinaa {
+            position: relative;
+            padding: 45px;
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+            color: black;
+            top: -224px;
+            left: -4px;
+        }
+        
+        .genee {
+            position: relative;
+            padding: 45px;
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+            color: black;
+            top: -349px;
+            left: 166.3px;
+        }
+        
+        .louisee {
+            position: relative;
+            padding: 45px;
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+            color: black;
+            top: -474px; 
+            left: 358px;
         }
         
         .outside {
@@ -103,10 +145,6 @@
             border: 7px solid red; 
         }
         
-            
-            
-        }
-        
     </style>
     
 </head>
@@ -114,15 +152,14 @@
 <body>
     <header>
         <div class="title"></div>
-            <h1>BOB'S BURGERS</h1>
             <h2>BOB'S BURGERS</h2>
+            <h1>BOB'S BURGERS</h1>
         
     </header>
     
     <nav>
         
         <ul> 
-        
             <li>
                 <div class="BOB">
                     <a href="bob"> BOB </a></div>
@@ -133,11 +170,6 @@
                 <a href="linda"> LINDA </a></div>
             </li>
             
-            <li>
-                <div class="TINA">
-                <a href="tina"> TINA </a></div>
-            </li>
-        
             <li>
                 <div class="TINA">
                 <a href="tina"> TINA </a></div>
@@ -153,29 +185,13 @@
                 <a href="louise.html"> LOUISE </a></div>
             </li>
         </ul>
-        
-        <ul>
-            
-            <li>
-                <p>BOB</p>
-            </li>
-            
-            <li>
-                <p>LINDA</p>
-            </li>
-            
-            <li>
-                <p>TINA</p>
-            </li>
-            
-            <li>
-                <p>GENE</p>
-            </li>
-            
-            <li>
-                <p>LOUISE</p>
-            </li>
-        </ul>
+    
+        <div class="bobby"> BOB </div>
+        <div class="lindaa">LINDA</div>
+        <div class="tinaa">TINA</div>
+        <div class="genee">GENE</div>
+        <div class="louisee">LOUISE</div>
+    
     </nav>
     
     <section>
