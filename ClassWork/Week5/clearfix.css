@@ -1,0 +1,12 @@
+div {
+  border: 3px solid red;
+}
+
+img {
+  float: right;
+  
+}
+
+.clearfix {
+  overflow: auto;
+}
