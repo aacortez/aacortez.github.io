@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|UnifrakturMaguntia');
+
+/* Universal Reset */
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+/* Global Styles */
+body {
+    font-family: 'Josefin Slab', Georgia, Times, serif;
+    color: darkslateblue;
+    font-weight: normal;
+    font-size: 16px; 
+    line-height: 1.4em;
+}
+
+img {
+    width: 100%;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family:'UnifrakturMaguntia', cursive;
+    color: antiquewhite; 
+}
+
+.content h2 {
+    margin-bottom: .5em;
+    color: aquamarine;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
+a {
+    color: mediumpurple; 
+    text-decoration: none;
+    transition: all .5s ease; 
+        -webkit-transition: all .5s ease;
+}
+
+a:hover {
+    color: aqua;
+}
+
+/* Header + Navigation */ 
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+nav.mainnav ul {
+    padding: 10px 0px 0px;
+    list-style: none; 
+}
+
+.mainnav ul li {
+    display: inline-block;
+    margin: 0px 15px 0px 0px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+}
+
+/* General Layout */
+.content {
+    max-width: 640px; 
+    padding: 20px;
+}
+
+/* Media Queries */ 
