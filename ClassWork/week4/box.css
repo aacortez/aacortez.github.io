@@ -1,0 +1,55 @@
+/* margin: auto; */
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: auto;
+}
+
+/* max-width */
+.box2 {
+  max-width: 600px;
+  background: green;
+  margin: auto;
+}
+
+/* position static; */
+.static {
+  position: static;
+}
+
+.relative1 {
+  position: relative;
+  background: blue;
+}
+
+.relative2 {
+  position: relative;
+  width: 300px;
+  background:green;
+  top: 50 px;
+  left: 100px;
+}
+
+.fixed {
+  width: 100px;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.relative3 {
+  width: 500px;
+  height: 300px;
+  border: 3px solid yellow;
+}
+
+.absolute {
+  width: 250;
+  height: 100px;
+  border: 6px solid black;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
