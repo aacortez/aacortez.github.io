@@ -2,158 +2,113 @@
 <html>
 <head>
     <title>Angelica Cortez - Album Covers</title>
-    
-    <style> 
-    
-        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-        
-        a:hover {
-            background-color: blue;
-            font-size: 200px;
-            text-align: center;
-        }
-        
-        
-        body {
-            background-size: 100%;
-            background-color: black;
-            background-blend-mode: difference;
-            color: white; 
-            letter-spacing: .03em;
-            font-family: 'Josefin Sans', sans-serif; 
-        }
-        
-        nav {
-            width:100%;
-            display: inline-block;
-            }
-        
-        nav li {
-            font-size: 15px;
-            position:relative;
-            display: inline-block;
-            float: right;
-            padding: 10px;
-            top: -45.9px; 
-            z-index: 100;
-
-        }
-        
-        nav a {
-            text-decoration: none; 
-            color: white; 
-            z-index: 100%;
-        }
-        
-        section {
-            width: 100%;
-            display: inline-block;
-        }
-        
-        section li {
-            position:relative;
-            display: inline-block;
-            float: left;
-            font-size: 15px;
-            z-index: 100;
-        }
-        
-        section a {
-            text-decoration: none;
-            color: white; 
-        }
-        
-        .albumcover {
-            font-size: 80px;
-            position: relative;
-            -webkit-transform: rotate(90deg);
-            float: right; 
-            margin-right: -110px;
-            top: 230px;
-            color: blue;
-        }
-        
-        footer {
-            position: absolute;
-            right: 25px;
-            bottom: 25px;
-            z-index: 100;
-        }
-        
-        footer a {
-            text-decoration: none; 
-            font-size: 15px; 
-            color: white;
-            border: 1px solid white; 
-            padding: 3px; 
-            padding-top: 7px;
-        }
-        
-        graphics {
-            left: 170px; 
-            top: 165px;
-            position: absolute; 
-            z-index: 99;
-        }
-        
-        graphics img {
-            width: 400px; 
-            
-        }
-        
-        .graphic {
-            text-decoration: underline;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="css/typecontent.css">
 </head>
     
 <body>
-
-    <section>
-        <ul>
-            <li>
-                <div class="home">
-                    <a href="home.html"> Angelica Cortez </a></div>
-            </li>
-        </ul>
-    </section>
     
-    <nav>
+<!-- hover -->
+<section>
+    <div class="nav">
         
         <ul>
             
-            <li>
-                <div class="about">
-                    <a href="about.html"> About </a></div>
-            </li>
+            <li><a href="home.html" class="linkHome"> Hi. Hey! Hello, </a></li>
             
-            <li>
-                <div class="typography">
-                    <a href="typography.html"> Typography </a></div>
-            </li>
+            <li><a href="graphics.html" class="linkGraphicdesign">Graphic Design</a></li>
             
-            <li>
-                <div class="graphic">
-                    <a href="graphics.html"> Graphic Design </a>
-                </div>
-            </li>
+            <li><a href="typography.html" class="linkTypography"> Typography </a></li>
             
+            <li><a href="about.html" class="linkAbout">About</a></li>
+        
         </ul>
+        
+        <div class="hoverGraphicdesign">
+            <h1>Graphic Design is what I do.</h1>
+        </div>
+        
+        <div class="hoverHome">
+            <h1>My name is Angelica Cortez.</h1>
+        </div>
+        
+        <div class="hoverAbout">
+            <h1>Who is Angelica Cortez?</h1>
+        </div>
+        
+        <div class="hoverTypography">
+            <h1>Typography is my passion.</h1>
+        </div>
     
-    </nav>
+    </div>
+</section>
     
     <graphics>
-        <div class="brian"> <img src="albumcovers/Covers9.png">
-        <img src="albumcovers/Covers13.png"> 
+        
+        <p>I created a variety of album covers <br> that are based on Brian Eno's album, "Taking Tiger Mountain". The idea of <br> these album covers is to represent the <br> flow and rhythm of his songs by <br> using a variety of textures.</p>
+        <br>
+        <br>
+        <div class="brian"> <img src="images/albumcovers/Covers.png">
+        <br>
+        <br>
+        <img src="images/albumcovers/Covers10.png">
+        <br>
+        <br>
+        <img src="images/albumcovers/Covers11.png">
+        <br>
+        <br>
+        <img src="images/albumcovers/Covers12.png">
+        <br>
+        <br>
+        <img src="images/albumcovers/Covers13.png">
+        <br>
+        <br>
+        <img src="images/albumcovers/Covers2.png">
+        <br>
+        <br>
+        <img src="images/albumcovers/Covers3.png">
         </div>
         
     </graphics>
     
-    <div class="albumcover"> Album Covers</div>
+    <div class="text"> Album Covers </div>
     
     <footer>
-        <a href="true.html"> NEXT </a>
+        <a href="temptations.html"> Next </a>
     </footer>
+    
+    
+<!---------------------Javascript----------------->
+    
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <script>
+        $('.linkGraphicdesign').hover(function() {
+             $('.hoverGraphicdesign').fadeIn();
+          }, function() {
+             $('.hoverGraphicdesign').fadeOut();
+        });
+
+        $('.linkHome').hover(function() {
+             $('.hoverHome').fadeIn();
+          }, function() {
+             $('.hoverHome').fadeOut();
+        });
+
+        $('.linkTypography').hover(function() {
+             $('.hoverTypography').fadeIn();
+          }, function() {
+             $('.hoverTypography').fadeOut();
+        });
+
+        $('.linkAbout').hover(function() {
+             $('.hoverAbout').fadeIn();
+          }, function() {
+             $('.hoverAbout').fadeOut();
+        });
+    </script>
+    
 </body>
 </html>
