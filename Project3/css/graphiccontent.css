@@ -64,6 +64,13 @@ section a {
     padding: 10px;
     z-index: 100%;
 }
+
+.hoverGraphicdesign,
+.hoverHome,
+.hoverTypography,
+.hoverAbout {
+    display: none;
+}
         
 .text {
     font-size: 75px;
@@ -94,6 +101,11 @@ footer a {
     padding: 2px; 
     padding-top: 5px;
 }
+
+.mona {
+    left: 175px; 
+    position: absolute;
+}
         
 graphics {
     left: 175px; 
@@ -101,6 +113,7 @@ graphics {
     position: absolute;
     z-index: -1;
     text-align: center;
+    border: 0 auto;
 }
         
 graphics img {

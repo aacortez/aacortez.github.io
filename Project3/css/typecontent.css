@@ -64,6 +64,13 @@ section a {
     padding: 10px;
     z-index: 100%;
 }
+
+.hoverGraphicdesign,
+.hoverHome,
+.hoverTypography,
+.hoverAbout {
+    display: none;
+}
         
 .text {
     font-size: 75px;

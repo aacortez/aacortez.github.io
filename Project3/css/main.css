@@ -101,3 +101,10 @@ content a {
 .creeper {
     width: 55%;
 }
+
+.hoverGraphicdesign,
+.hoverHome,
+.hoverTypography,
+.hoverAbout {
+    display: none;
+}
