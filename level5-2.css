@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://iso.500px.com/wp-content/uploads/2015/03/how-to-create-a-dynamic-cityscape-in-photoshop-1500x1000.jpg)
+}
+
+.city {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    border: 3px solid white;
+    top: 338px;
+    position: absolute;
+    height: 20px;
+    width: 1000px;
+    padding: 50px;
+    left: 100px;
+    
+}
+
+.question {
+    color: black;
+    text-align: center;
+    font-family:fantasy;
+    top: 100px;
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    padding: 50px;
+    left: 800px;
+    font-size:500px
+}
+
+.town {
+    color: bisque;
+    text-align: center;
+    font-family: serif;
+    border: 3px dotted white;
+    top: 650px;
+    position:absolute;
+    height: 72px;
+    width: 110px;
+    left: 1090px;
+    line-height: 12px;
+    font-size: 15px;
+    
+}
