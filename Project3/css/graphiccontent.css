@@ -73,7 +73,7 @@ section a {
     color: white;
     z-index: 98%;
     right: -150px;
-    top: 305px;
+    top: 316px;
     text-decoration: line-through;
     -webkit-text-decoration-color: blue;
     text-decoration-color: blue;
@@ -104,12 +104,12 @@ graphics {
 }
         
 graphics img {
-    width: 800px; 
+    width: 500px; 
     position: relative;
     z-index: -1;
 }
         
-.linkTypography {
+.linkGraphicdesign {
     text-decoration: line-through;
     -webkit-text-decoration-color: blue;
     text-decoration-color: blue;

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angelica Cortez - Let's work together</title>
+    <link rel="stylesheet" href="css/information.css">
+</head>
+    
+<body>
+    
+<!-- hover -->
+<section>
+    <div class="nav">
+        
+        <ul>
+            
+            <li><a href="home.html" class="linkHome"> Hi. Hey! Hello, </a></li>
+            
+            <li><a href="graphics.html" class="linkGraphicdesign">Graphic Design</a></li>
+            
+            <li><a href="typography.html" class="linkTypography"> Typography </a></li>
+            
+            <li><a href="about.html" class="linkAbout">About</a></li>
+        
+        </ul>
+        
+        <div class="hoverGraphicdesign">
+            <h1>Graphic Design is what I do.</h1>
+        </div>
+        
+        <div class="hoverHome">
+            <h1>My name is Angelica Cortez.</h1>
+        </div>
+        
+        <div class="hoverAbout">
+            <h1>Who is Angelica Cortez?</h1>
+        </div>
+        
+        <div class="hoverTypography">
+            <h1>Typography is my passion.</h1>
+        </div>
+    
+    </div>
+</section>
+    
+    <graphics>
+        
+        <div class="who"> Let's work Together! </div>
+        <br>
+        <p> I would love to hear from you! <br> For work inquires, collaborations, <br> or to say 'Hi. Hey! hello,' contact <br> me via the email below. <br>
+        <a href="angelica.acortez@gmail.com">angelica.acortez@gmail.com</a>
+        </p>
+        <br>
+        
+        <h2 > Stalk me through: 
+            <br>
+            instagram
+            <br>
+            pinterest
+            <br>
+            behance
+            <br>
+            linkedin
+            <br>
+            github
+            <br>
+        </h2>
+        
+    </graphics>
+    
+    
+<!---------------------Javascript----------------->
+    
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <script>
+        $('.linkGraphicdesign').hover(function() {
+             $('.hoverGraphicdesign').fadeIn();
+          }, function() {
+             $('.hoverGraphicdesign').fadeOut();
+        });
+
+        $('.linkHome').hover(function() {
+             $('.hoverHome').fadeIn();
+          }, function() {
+             $('.hoverHome').fadeOut();
+        });
+
+        $('.linkTypography').hover(function() {
+             $('.hoverTypography').fadeIn();
+          }, function() {
+             $('.hoverTypography').fadeOut();
+        });
+
+        $('.linkAbout').hover(function() {
+             $('.hoverAbout').fadeIn();
+          }, function() {
+             $('.hoverAbout').fadeOut();
+        });
+    </script>
+    
+</body>
+</html>

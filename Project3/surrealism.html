@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angelica Cortez - Dream of Lost Souls</title>
+    <link rel="stylesheet" href="css/graphiccontent.css">
+</head>
+    
+<body>
+    
+<!-- hover -->
+<section>
+    <div class="nav">
+        
+        <ul>
+            
+            <li><a href="home.html" class="linkHome"> Hi. Hey! Hello, </a></li>
+            
+            <li><a href="graphics.html" class="linkGraphicdesign">Graphic Design</a></li>
+            
+            <li><a href="typography.html" class="linkTypography"> Typography </a></li>
+            
+            <li><a href="about.html" class="linkAbout">About</a></li>
+        
+        </ul>
+        
+        <div class="hoverGraphicdesign">
+            <h1>Graphic Design is what I do.</h1>
+        </div>
+        
+        <div class="hoverHome">
+            <h1>My name is Angelica Cortez.</h1>
+        </div>
+        
+        <div class="hoverAbout">
+            <h1>Who is Angelica Cortez?</h1>
+        </div>
+        
+        <div class="hoverTypography">
+            <h1>Typography is my passion.</h1>
+        </div>
+    
+    </div>
+</section>
+    
+    <graphics>
+        
+        <p>A zine I created based on the art movement, Surrealism. THe idea of the zine was to take aspects of the movement (dream vs. reality) into a 12 page zine.</p>
+        <br>
+        <div class="brian"> <img src="images/SurrealismZine/11.jpg">
+        <br>
+        <img src="images/SurrealismZine/12.jpg">
+        <br>
+        <img src="images/SurrealismZine/13.jpg">
+        <br>
+        <img src="images/SurrealismZine/14.jpg">
+        <br>
+        <img src="images/SurrealismZine/15.jpg">
+        </div>
+        
+    </graphics>
+    
+    <div class="text"> Dream of Lost Souls </div>
+    
+    <footer>
+        <a href="creeper.html"> Next </a>
+    </footer>
+    
+    
+<!---------------------Javascript----------------->
+    
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <script>
+        $('.linkGraphicdesign').hover(function() {
+             $('.hoverGraphicdesign').fadeIn();
+          }, function() {
+             $('.hoverGraphicdesign').fadeOut();
+        });
+
+        $('.linkHome').hover(function() {
+             $('.hoverHome').fadeIn();
+          }, function() {
+             $('.hoverHome').fadeOut();
+        });
+
+        $('.linkTypography').hover(function() {
+             $('.hoverTypography').fadeIn();
+          }, function() {
+             $('.hoverTypography').fadeOut();
+        });
+
+        $('.linkAbout').hover(function() {
+             $('.hoverAbout').fadeIn();
+          }, function() {
+             $('.hoverAbout').fadeOut();
+        });
+    </script>
+    
+</body>
+</html>

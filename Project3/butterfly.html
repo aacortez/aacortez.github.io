@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angelica Cortez - Film Poster Remake</title>
+    <link rel="stylesheet" href="css/graphiccontent.css">
+</head>
+    
+<body>
+    
+<!-- hover -->
+<section>
+    <div class="nav">
+        
+        <ul>
+            
+            <li><a href="home.html" class="linkHome"> Hi. Hey! Hello, </a></li>
+            
+            <li><a href="graphics.html" class="linkGraphicdesign">Graphic Design</a></li>
+            
+            <li><a href="typography.html" class="linkTypography"> Typography </a></li>
+            
+            <li><a href="about.html" class="linkAbout">About</a></li>
+        
+        </ul>
+        
+        <div class="hoverGraphicdesign">
+            <h1>Graphic Design is what I do.</h1>
+        </div>
+        
+        <div class="hoverHome">
+            <h1>My name is Angelica Cortez.</h1>
+        </div>
+        
+        <div class="hoverAbout">
+            <h1>Who is Angelica Cortez?</h1>
+        </div>
+        
+        <div class="hoverTypography">
+            <h1>Typography is my passion.</h1>
+        </div>
+    
+    </div>
+</section>
+    
+    <graphics>
+        
+        <p>The purpose of these poster was to <br> chose three movies with a common <br> theme and create an overall film festival poster representing the three films. The three films are "The Air I Breath", "Crash", and "Tokyo Godfather". I wanted to convey the life changing relationships <br> that displayed in the films.</p>
+        <br>
+        <br>
+        <div class="brian"> <img src="images/FilmPosterRemake/01.jpg">
+        <br>
+        <br>
+        <img src="images/FilmPosterRemake/02.jpg">
+        <br>
+        <br>
+        <img src="images/FilmPosterRemake/03.jpg">
+        <br>
+        <br>
+        <img src="images/FilmPosterRemake/04.jpg">
+        </div>
+        
+    </graphics>
+    
+    <div class="text"> Film Poster Remake </div>
+    
+    <footer>
+        <a href="surrealism.html"> Next </a>
+    </footer>
+    
+    
+<!---------------------Javascript----------------->
+    
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <script>
+        $('.linkGraphicdesign').hover(function() {
+             $('.hoverGraphicdesign').fadeIn();
+          }, function() {
+             $('.hoverGraphicdesign').fadeOut();
+        });
+
+        $('.linkHome').hover(function() {
+             $('.hoverHome').fadeIn();
+          }, function() {
+             $('.hoverHome').fadeOut();
+        });
+
+        $('.linkTypography').hover(function() {
+             $('.hoverTypography').fadeIn();
+          }, function() {
+             $('.hoverTypography').fadeOut();
+        });
+
+        $('.linkAbout').hover(function() {
+             $('.hoverAbout').fadeIn();
+          }, function() {
+             $('.hoverAbout').fadeOut();
+        });
+    </script>
+    
+</body>
+</html>
