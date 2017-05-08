@@ -1,154 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Angelica Cortez - Be True to Yourself</title>
-    
-    <style> 
-    
-        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-        
-        a:hover {
-            background-color: blue;
-            font-size: 200px;
-            text-align: center;
-        }
-        
-        body {
-            background-size: 100%;
-            background-color: black;
-            background-blend-mode: difference;
-            color: white; 
-            letter-spacing: .03em;
-            font-family: 'Josefin Sans', sans-serif; 
-        }
-        
-        nav {
-            width:100%;
-            display: inline-block;
-            }
-        
-        nav li {
-            font-size: 15px;
-            position:relative;
-            display: inline-block;
-            float: right;
-            padding: 10px;
-            top: -45.9px; 
-            z-index: 100;
-
-        }
-        
-        nav a {
-            text-decoration: none; 
-            color: white; 
-            z-index: 100%;
-        }
-        
-        section {
-            width: 100%;
-            display: inline-block;
-        }
-        
-        section li {
-            position:relative;
-            display: inline-block;
-            float: left;
-            font-size: 15px;
-            z-index: 100;
-        }
-        
-        section a {
-            text-decoration: none;
-            color: white; 
-        }
-        
-        .temptations {
-            font-size: 80px;
-            position: relative;
-            -webkit-transform: rotate(90deg);
-            float: right; 
-            margin-right: -175px;
-            top: 208px;
-            color: blue;
-        }
-        
-        footer {
-            position: absolute;
-            right: 25px;
-            bottom: 25px;
-            z-index: 100;
-        }
-        
-        footer a {
-            text-decoration: none; 
-            font-size: 15px; 
-            color: white;
-            border: 1px solid white; 
-            padding: 3px; 
-            padding-top: 7px;
-        }
-        
-        graphics {
-            left: 175px; 
-            top: 100px;
-            position: absolute; 
-            z-index: 99;
-        }
-        
-        graphics img {
-            width: 800px; 
-            
-        }
-        
-        .typography {
-            text-decoration: underline;
-        }
-        
-    </style>
+    <title>Angelica Cortez - Temptations</title>
+    <link rel="stylesheet" href="css/typecontent.css">
 </head>
     
 <body>
-
-    <section>
-        <ul>
-            <li>
-                <div class="home">
-                    <a href="home.html"> Angelica Cortez </a></div>
-            </li>
-        </ul>
-    </section>
     
-    <nav>
+   <section>
+    <div class="nav">
         
         <ul>
             
-            <li>
-                <div class="about">
-                    <a href="about.html"> About </a></div>
-            </li>
+            <li><a href="home.html" class="linkHome"> Angelica Cortez </a></li>
             
-            <li>
-                <div class="typography">
-                    <a href="typography.html"> Typography </a></div>
-            </li>
+            <li><a href="graphics.html" class="linkGraphicdesign">Graphic Design</a></li>
             
-            <li>
-                <div class="graphic">
-                    <a href="graphics.html"> Graphic Design </a></div>
-            </li>
+            <li><a href="typography.html" class="linkTypography"> Typography </a></li>
             
+            <li><a href="about.html" class="linkAbout">About</a></li>
+        
         </ul>
+        
+        <div class="hoverGraphicdesign">
+            <h1>Graphic Design</h1>
+        </div>
+        
+        <div class="hoverHome">
+            <h1>Angelica Cortez</h1>
+        </div>
+        
+        <div class="hoverAbout">
+            <h1>About</h1>
+        </div>
+        
+        <div class="hoverTypography">
+            <h1>Typography</h1>
+        </div>
     
-    </nav>
+    </div>
+</section>
     
     <graphics>
-        <div class="brian"> <img src="temptaions/IMG_0124"></div>
+        
+        <p>A book based on a quote from Rupi Kaur's Milk and Honey, <em>"you were temptingly beautiful, but stung when I got close."</em></p>
+        <div class="brian"> <img src="images/temptations/IMG_0124.jpg">
+        <br>
+        <img src="images/temptations/IMG_0125.jpg">
+        </div>
+        
     </graphics>
     
-    <div class="temptations"> Temptations</div>
+    <div class="text"> Temptations </div>
     
     <footer>
-        <a href="disorder.html"> NEXT </a>
+        <a href="disorder.html"> Next </a>
     </footer>
+    
+    
+    
+    <!---------------------Javascript----------------->
+    
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <script>
+        $('.linkGraphicdesign').hover(function() {
+             $('.hoverGraphicdesign').fadeIn();
+          }, function() {
+             $('.hoverGraphicdesign').fadeOut();
+        });
+
+        $('.linkHome').hover(function() {
+             $('.hoverHome').fadeIn();
+          }, function() {
+             $('.hoverHome').fadeOut();
+        });
+
+        $('.linkTypography').hover(function() {
+             $('.hoverTypography').fadeIn();
+          }, function() {
+             $('.hoverTypography').fadeOut();
+        });
+
+        $('.linkAbout').hover(function() {
+             $('.hoverAbout').fadeIn();
+          }, function() {
+             $('.hoverAbout').fadeOut();
+        });
+    </script>
+    
 </body>
 </html>

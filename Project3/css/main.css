@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+    
+a:hover {
+    text-decoration: line-through;
+    -webkit-text-decoration-color: white;
+    text-decoration-color: white;
+}        
+
+body {
+    background-size: 100%;
+    background-color: black;
+    background-blend-mode: difference;
+    color: white; 
+    letter-spacing: .03em;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+    
+h1 {
+    display: block;
+    width: 100%;
+    background: blue;
+    font-size: 98px;
+    z-index: 100;
+    color: white;
+    position: fixed;
+    top: -30px;
+}
+
+section {
+    width: 100%;
+    position: fixed;
+    z-index: 100%;
+}
+
+section li {
+    display: inline-block;
+    z-index: 100%;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+    z-index: 100%;
+}
+
+.linkHome {
+    padding: 10px;
+    padding-right: 755px;
+}
+
+.linkTypography,
+.linkGraphicdesign,
+.linkAbout {
+    padding: 10px;
+    z-index: 100%;
+}
+        
+content { 
+    width: 300px;
+}
+        
+content li {
+    padding-left: 30px;  
+    list-style: none;
+}
+
+content a {
+    position: relative; 
+    text-decoration: none;
+    font-size: 85px;
+    display: inline;
+    color: blue;
+    bottom: -155px;
+}
+    
+/*----graphics and type------*/
+
+.monalisa,
+.butterfly,
+.lostsouls,
+.creeper,
+.disorder, 
+.caslon,
+.albumcovers,
+.true,
+.temptations {
+    display: inline-block;
+}
+
+.disorder, 
+.caslon,
+.albumcovers,
+.temptations {
+    width: 45%;
+    text-align: right;
+}
+
+.monalisa,
+.butterfly,
+.lostsouls,
+.creeper {
+    width: 55%;
+}
